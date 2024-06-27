@@ -1,0 +1,25 @@
+name: example_1
+path: example_1.csv
+description: An example dataset
+format: custom_format
+mediatype: application/custom
+encoding: ascii
+bytes: 2385
+hash: dd65de7575eda7b29fe67b13137712c6
+schema:
+  fields:
+  - name: Code
+    type: string
+    constraints:
+      required: true
+  - name: Land Use
+    type: string
+    constraints:
+      required: true
+  - name: Land Use Description
+    type: string
+    constraints:
+      required: true
+  primaryKey:
+  - Code
+title: Example Resource Title
